@@ -1,5 +1,5 @@
 package sa_test
 
-func Say() string {
-	return "hello world"
+func Say(name string) string {
+	return "hello " + name
 }
